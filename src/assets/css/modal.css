@@ -1,0 +1,97 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  color: #fff;
+  background: #333;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+.topic-content button{
+  margin-top: 10px;
+  float: right;
+}
+.modal-overlay .navigation{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.modal-overlay button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.completion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin: auto;
+}
+.completion h3{
+  font-size: 30px;
+}
+.completion img{
+  width: 150px;
+}
+.confirmation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirmation-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.confirmation-box p {
+  margin-bottom: 20px;
+}
+.confirmation-box button {
+  margin: 0 10px;
+  padding: 10px 20px;
+}

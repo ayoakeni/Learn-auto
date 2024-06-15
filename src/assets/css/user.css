@@ -1,0 +1,81 @@
+.user-Con{
+  background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/aLady.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user-content {
+  padding: 20px;
+}
+.user-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-section {
+  margin-bottom: 20px;
+}
+.profile-section h2 {
+  margin-bottom: 10px;
+}
+.profile-section p {
+  margin: 5px 0;
+}
+.acc-opt{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.profile-section button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.profile-section button:hover {
+  background-color: #0056b3;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.preference-item {
+  margin-bottom: 10px;
+}
+
+.preference-item label {
+  margin-right: 10px;
+}
+
+.preference-item select,
+.preference-item input[type="checkbox"] {
+  margin-left: 5px;
+}
+.font-size,
+.course{
+  color: #fff;
+  font-weight: bold;
+  outline-color:  chartreuse;
+  cursor: pointer;
+  background: #121212;
+}
+.font-size-small {
+  font-size: 12px;
+}
+.font-size-medium {
+  font-size: 16px;
+}
+.font-size-large {
+  font-size: 20px;
+}
+
+.profile-section h1, 
+.profile-section h2 {
+  margin-top: 0;
+}
+.profile-section a{
+  color: #fff;
+}

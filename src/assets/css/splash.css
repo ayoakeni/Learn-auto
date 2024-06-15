@@ -1,0 +1,18 @@
+.splash-screen{
+  display: flex;
+  height: 100vh;
+  background: chartreuse;
+}
+.splash-screen .con{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+.splash-screen h1{
+  color: #fff;
+}
+.splash-screen i{
+  font-size: 30px;
+  color: #fff;
+}

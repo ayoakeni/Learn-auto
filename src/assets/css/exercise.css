@@ -1,0 +1,14 @@
+.exercise-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.exercise-content input[type='radio']{
+  margin-right: 5px;
+}
+.exercise-content input[type="text"]{
+  outline-color:chartreuse;
+  padding: 5px;
+  height: 34px;
+  margin-top: 5px;
+}

@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: chartreuse;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-button {
+  height: 20px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-button:vertical:increment {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M12 20l-8-8h16z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+}
+::-webkit-scrollbar-button:vertical:increment:hover{
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="chartreuse" d="M12 20l-8-8h16z"/></svg>');
+}
+::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M12 4l8 8H4z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+}
+::-webkit-scrollbar-button:vertical:decrement:hover{
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="chartreuse" d="M12 4l8 8H4z"/></svg>');
+}
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,32 @@
+.test-content h3{
+  font-size: 34px;
+}
+.test-content .results{
+  margin-top: 10px;
+}
+.test-content form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.test-content form input[type="radio"]{
+  margin-right: 5px;
+}
+.test-content form input[type="text"]{
+  outline-color:chartreuse;
+  padding: 5px;
+  height: 34px;
+  margin-top: 5px;
+}
+.test-content button[type="submit"]{
+  margin-top: 15px;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
+.test-content button{
+  margin-top: 15px;
+}

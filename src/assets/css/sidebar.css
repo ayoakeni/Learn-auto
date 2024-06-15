@@ -1,0 +1,25 @@
+.sidebar{
+  position: fixed;
+  top: 4.8rem;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 70px;
+  background: chartreuse;
+  border-right: 2px solid #fff;
+}
+.sidebar i{
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.sidebar .active{
+  color: #121212;
+}
+.sidebar i:hover{
+  color: #121212;
+}

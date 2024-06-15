@@ -1,0 +1,12 @@
+.lesson-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.lesson-content h2,h3{
+  color: chartreuse;
+}
+.lesson-content p{
+  font-weight: bold;
+  color: #333;
+}
