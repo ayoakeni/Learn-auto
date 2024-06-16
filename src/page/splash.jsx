@@ -4,6 +4,7 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { AuthContext } from '../utils/authContext';
 import { useSound } from '../components/soundContext'; // Import the useSound hook
 import clickSound from '../assets/soundEffects/welcome.MP3'; // Import your sound effect file
+import Logo from '../assets/images/logo.png'
 import '../assets/css/splash.css';
 
 const Splash = () => {
@@ -53,7 +54,7 @@ const Splash = () => {
     <div className="splash-screen">
       <div className="con">
         <h1>Learn Auto</h1>
-        <i className="fa-solid fa-user-graduate"></i>
+        <img src={Logo} alt="learn logo" />
       </div>
     </div>
   );

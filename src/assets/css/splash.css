@@ -12,7 +12,7 @@
 .splash-screen h1{
   color: #fff;
 }
-.splash-screen i{
-  font-size: 30px;
+.splash-screen img{
+  width: 30px;
   color: #fff;
 }
