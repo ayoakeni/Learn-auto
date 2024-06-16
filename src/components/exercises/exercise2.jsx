@@ -48,7 +48,7 @@ function Exercise2({ onComplete }) {
     let newScore = 0;
     questions.forEach((question) => {
       if (selectedAnswers[question.id] === question.correctAnswer) {
-        newScore += 5; // Each correct answer is worth 5 points
+        newScore += 10; // Each correct answer is worth 5 points
       }
     });
     setScore(newScore);

@@ -30,7 +30,7 @@ function Exercise1({ onComplete }) {
     let newScore = 0;
     Object.keys(correctAnswers).forEach((key) => {
       if (answers[key].toLowerCase() === correctAnswers[key].toLowerCase()) {
-        newScore += 10;
+        newScore += 10; // Each correct answer is worth 5 points
       }
     });
     setScore(newScore);
