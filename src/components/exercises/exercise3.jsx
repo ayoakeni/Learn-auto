@@ -24,7 +24,7 @@ function Exercise3({ onComplete }) {
     {
       id: 3,
       scrambled: ["can", "you", "speak", "English"],
-      correct: "Can you speak English?"
+      correct: "Can you speak English"
     },
     {
       id: 4,
